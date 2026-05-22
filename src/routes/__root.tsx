@@ -80,10 +80,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "A Nigerian study guide chatbot that plans your day, reminds you to study, and hails you when you finish. Sweet sweet motivation in Pidgin." },
       { name: "author", content: "StudyPikin" },
       { property: "og:title", content: "StudyPikin — Your Naija Study Buddy" },
-      { property: "og:description", content: "Plan your day, get Naija-style study reminders, and chop praise when you done." },
+      { property: "og:description", content: "A Nigerian study guide chatbot that plans your day, reminds you to study, and hails you when you finish. Sweet sweet motivation in Pidgin." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "StudyPikin — Your Naija Study Buddy" },
+      { name: "twitter:description", content: "A Nigerian study guide chatbot that plans your day, reminds you to study, and hails you when you finish. Sweet sweet motivation in Pidgin." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/bb26b77e-0d9a-401f-a1a8-91d237839dc4/id-preview-8ab9c78a--fceb5594-be7c-48a2-a957-d53efd705956.lovable.app-1779426702581.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/bb26b77e-0d9a-401f-a1a8-91d237839dc4/id-preview-8ab9c78a--fceb5594-be7c-48a2-a957-d53efd705956.lovable.app-1779426702581.png" },
     ],
     links: [
       {
